@@ -14,7 +14,7 @@ with it I recommend reading
 
 ## Setting the Prompt
 
-We are going to be using [**this Google Notebook**](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing) originally created by [Katherine Crowson](https://github.com/crowsonkb).
+We are going to be using [**this Google Notebook (opens in new tab)**](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing){:target="_blank"} originally created by [Katherine Crowson](https://github.com/crowsonkb)
 (it's been modified since by others). If you're not familiar with notebooks, 
 they're similar to google docs but for code/programs. The program will run in a 
 remote computer and you won't have to download anything to your PC. 
@@ -62,6 +62,6 @@ have to do **Runtime > Run all** to redo the downloads.
 
 <img src="/assets/images/creating-art-with-AI-post/run-button.png" width=215 height=50/>
 
-That's it. Have Fun! If you want a more in-depth guide for how to use the
+That's it. Have fun! If you want a more in-depth guide for how to use the
 other parameters and more information about creating prompts I recommend 
 [this tutorial](https://docs.google.com/document/d/1Lu7XPRKlNhBQjcKr8k8qRzUzbBW7kzxb5Vu72GMRn2E/edit).
