@@ -26,7 +26,8 @@ After opening the notebook, scroll down to **Implementation tools > Parameters**
 Here, you will be working mainly with the "prompts" parameter. Messing with the 
 other parameters is not really necessary if you want to get started right away. 
 You could try increasing the width and height of the image, but I've found that 
-this causes the program to run out of memory.
+this causes the program to run out of memory, so I would leave default
+values for now.
 
 <img src="/assets/images/creating-art-with-AI-post/parameters.png" width=200 height=170/>
 
@@ -36,7 +37,7 @@ Now change the "prompts" parameter to whatever you'd like. I'm going to try
 ## Running the Program
 
 After you've set the "prompts" parameter, you can run the program by clicking 
-**Runtime > Run all** on the toolbar. It will take a while to run as it has
+**Runtime > Run all** on the menu bar. It will take a while to run as it has
 to do some downloads, but after about 2 to 3 minutes you should see a brown image
 show up under the **Implementation tools > Execution** section. Every minute or 
 so you should continue to see updates as the AI works on creating the image 
@@ -51,7 +52,7 @@ long as you didn't change the "display_frequency" parameter.
 <img src="/assets/images/creating-art-with-AI-post/progress.png" width=488 height=29/>
 
 When you're happy with the images created, click **Runtime > Interrupt execution**
-on the toolbar. If you want to create a video with all the frames created by the
+on the menu bar. If you want to create a video with all the frames created by the
 AI, you can wait a couple more seconds. If not, click **Runtime > Interrupt execution**
 again.  And that's it, now you can save the image(s).
 
