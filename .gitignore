@@ -1,6 +1,7 @@
 _site
 _drafts
 .DS_Store
+.vscode
 .sass-cache
 .jekyll-cache
 .ruby-version
