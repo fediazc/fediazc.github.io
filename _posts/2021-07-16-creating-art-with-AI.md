@@ -10,14 +10,17 @@ kind of art. If you want to learn more about AI art and what's possible
 with it I recommend reading 
 [this article by Charlie Snell](https://ml.berkeley.edu/blog/posts/clip-art/).
 
-![Lake \| Mountainside \| Watercolor](/assets/images/creating-art-with-AI-post/Lake-Mountainside-Watercolor.png)
+![Lake \| Mountainside \| Watercolor](/assets/images/creating-art-with-AI-post/Lake-Mountainside-Watercolor.png){:class="border center"}
 
 ## Setting the Prompt
 
-We are going to be using [**this Google Notebook (opens in new tab)**](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing){:target="_blank"} originally created by [Katherine Crowson](https://github.com/crowsonkb)
+We are going to be using [**this Google Notebook (opens in new tab)**](https://colab.research.google.com/drive/1eZprNoHtPKAy1AynJxIh0rx_tnku1rFB?usp=sharing){:target="_blank"} originally created by [Katherine Crowson](https://github.com/crowsonkb)
 (it's been modified since by others). If you're not familiar with notebooks, 
 they're similar to google docs but for code/programs. The program will run in a 
 remote computer and you won't have to download anything to your PC. 
+
+**NOTE**: The notebook linked above is a copy that I made of the original and it
+*should* work with this tutorial. [Here is the original](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing), though I can't guarantee it will work.
 
 Make sure you're logged in into a google account so that you're 
 able to run the program later. 
@@ -29,7 +32,7 @@ You could try increasing the width and height of the image, but I've found that
 this causes the program to run out of memory, so I would leave default
 values for now.
 
-<img src="/assets/images/creating-art-with-AI-post/parameters.png" width=200 height=170/>
+<img src="/assets/images/creating-art-with-AI-post/parameters.png" class="center border" width=200 height=170/>
 
 Now change the "prompts" parameter to whatever you'd like. I'm going to try
 "cityscape at night" but you can get as creative as you want.
@@ -43,13 +46,13 @@ show up under the **Implementation tools > Execution** section. Every minute or
 so you should continue to see updates as the AI works on creating the image 
 (shown below).
 
-<img src="/assets/images/creating-art-with-AI-post/updates.png" width=280 height=526/>
+<img src="/assets/images/creating-art-with-AI-post/updates.png" class="center border" width=280 height=526/>
 
 You can keep track of the progress with the blue bar in the **Execution**
 section. You should see updates at iterations 50, 100, 150... and so on, as
 long as you didn't change the "display_frequency" parameter.
 
-<img src="/assets/images/creating-art-with-AI-post/progress.png" width=488 height=29/>
+<img src="/assets/images/creating-art-with-AI-post/progress.png" class="border" width=488 height=29/>
 
 When you're happy with the images created, click **Runtime > Interrupt execution**
 on the menu bar. If you want to create a video with all the frames created by the
@@ -61,7 +64,7 @@ click the "run" button next to the **Parameters** section and then the one next 
 **Execution** section. Whenever you close and reopen the notebook, you will
 have to do **Runtime > Run all** to redo the downloads.
 
-<img src="/assets/images/creating-art-with-AI-post/run-button.png" width=215 height=50/>
+<img src="/assets/images/creating-art-with-AI-post/run-button.png" class="center border" width=215 height=50/>
 
 That's it. Have fun! If you want a more in-depth guide for how to use the
 other parameters and more information about creating prompts I recommend 
