@@ -1,0 +1,52 @@
+---
+background-color: "#fefdfa"
+text-color: "#494f00"
+---
+@import "{{ site.theme }}";
+
+/** overwriting the minima theme */
+
+body {
+    background-color: {{ page.background-color }};
+    font-family: Courier New, Courier, monospace;
+    color: {{ page.text-color }};
+    font-size: 13pt;
+}
+
+/** links */
+a:link {
+    color: {{ page.text-color }};
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: {{ page.text-color }};
+}
+
+a:hover {
+    background-color: #e0dfd2;
+}
+
+.site-title, .site-title:visited { 
+    color: {{ page.text-color }} 
+}
+.social-media-list a:hover .username { 
+    text-decoration: none; 
+}
+
+/** images */
+img.border {
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+img.center {
+    display: block;
+    margin: auto;
+}
+
+/** other */
+::selection {
+    background-color: #e0dfd2;
+}
