@@ -35,6 +35,10 @@ a:hover {
     text-decoration: none; 
 }
 
+.site-nav .page-link {
+    color: {{ page.text-color }};
+}
+
 /** images */
 img.border {
     border: solid 1px;
