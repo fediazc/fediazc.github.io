@@ -6,7 +6,7 @@ description: >-
 domain: "fediaz.me"
 url: "https://fediaz.me"
 twitter_username: nnnnnando
-github_username:  femdiaz
+github_username:  fediazc
 # Build settings
 theme: minima
 plugins:
